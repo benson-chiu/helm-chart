@@ -4,3 +4,12 @@
 [submodule "goflow2"]
 	path = goflow2
 	url = https://github.com/nocsysmonitor/goflow2
+[submodule "charts/label-studio"]
+	path = charts/label-studio
+	url = https://github.com/benson-chiu/label-studio
+[submodule "charts/mlflow"]
+	path = charts/mlflow
+	url = https://github.com/benson-chiu/mlflow
+[submodule "charts/rstudio-workbench"]
+	path = charts/rstudio-workbench
+	url = https://github.com/benson-chiu/rstudio-workbench
