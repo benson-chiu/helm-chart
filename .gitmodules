@@ -1,0 +1,15 @@
+[submodule "goflow2"]
+	path = goflow2
+	url = https://github.com/nocsysmonitor/goflow2
+[submodule "charts/helm-snort-ids"]
+	path = charts/helm-snort-ids
+	url = https://github.com/nocsyshelmrepo/helm-snort-ids
+[submodule "charts/helm-yolo"]
+	path = charts/helm-yolo
+	url = https://github.com/nocsyshelmrepo/helm-yolo
+[submodule "charts/helm-mars"]
+	path = charts/helm-mars
+	url = https://github.com/nocsyshelmrepo/helm-mars
+[submodule "charts/code-server"]
+	path = charts/code-server
+	url = https://github.com/benson-chiu/code-server
