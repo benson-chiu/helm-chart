@@ -10,6 +10,7 @@ entries:
     type: application
     urls:
     - https://github.com/benson-chiu/helm-chart/releases/download/code-server/code-server-3.26.4.tgz
+    version: 3.26.4
   label-studio:
   - apiVersion: v2
     appVersion: 1.17.0
