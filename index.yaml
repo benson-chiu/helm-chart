@@ -9,6 +9,6 @@ entries:
     name: code-server
     type: application
     urls:
-    - https://github.com/benson-chiu/code-server/code-server-3.26.4.tgz
+    - https://github.com/benson-chiu/helm-chart/releases/download/code-server/code-server-3.26.4.tgz
     version: 3.26.4
 generated: "2025-05-06T03:50:52.560711935Z"
