@@ -1,15 +1,17 @@
 apiVersion: v1
 entries:
   code-server:
-  - apiVersion: v2
+  - annotations:
+      app.kubesphere.io/category: AI
+    apiVersion: v2
     appVersion: 4.99.4
-    created: "2025-05-06T03:50:52.563249114Z"
+    created: "2025-07-01T09:35:54.198447919Z"
     description: A Helm chart for coder/code-server
-    digest: ef6bbb6636be78523687c629e2ca9f9b546c520127834719ab337d198084fb1f
+    digest: 4f7196d38a397ef39c18313e8a5252193c9c4ce2e72a6cf7c3372ceea3909233
     name: code-server
     type: application
     urls:
-    - https://github.com/benson-chiu/helm-chart/releases/download/code-server/code-server-3.26.4.tgz
+    - https://github.com/benson-chiu/helm-chart/releases/download/code-server-test/code-server-3.26.4.tgz
     version: 3.26.4
   label-studio:
   - apiVersion: v2
