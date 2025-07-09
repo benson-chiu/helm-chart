@@ -14,7 +14,9 @@ entries:
     - https://github.com/benson-chiu/helm-chart/releases/download/code-server-test/code-server-3.26.4.tgz
     version: 3.26.4
   label-studio:
-  - apiVersion: v2
+  - annotations:
+      app.kubesphere.io/category: Image Registry
+    apiVersion: v2
     appVersion: 1.17.0
     created: "2025-05-06T07:02:23.218023218Z"
     dependencies:
@@ -38,6 +40,7 @@ entries:
     version: 1.9.9
   mlflow:
   - annotations:
+      app.kubesphere.io/category: Message Queueing
       artifacthub.io/changes: |
         - Fix the documentation for artifact root and artifacts destination usage
       artifacthub.io/containsSecurityUpdates: "false"
@@ -123,6 +126,7 @@ entries:
     version: 0.17.2
   rstudio-workbench:
   - annotations:
+      app.kubesphere.io/category: Web Server
       artifacthub.io/images: |
         - name: rstudio-workbench
           image: rstudio/rstudio-workbench:ubuntu2204-2024.12.1
