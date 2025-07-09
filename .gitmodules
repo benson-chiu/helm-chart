@@ -1,9 +1,6 @@
 [submodule "charts/code-server"]
 	path = charts/code-server
 	url = https://github.com/benson-chiu/code-server
-[submodule "goflow2"]
-	path = goflow2
-	url = https://github.com/nocsysmonitor/goflow2
 [submodule "charts/label-studio"]
 	path = charts/label-studio
 	url = https://github.com/benson-chiu/label-studio
